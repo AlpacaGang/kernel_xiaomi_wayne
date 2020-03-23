@@ -180,5 +180,8 @@
 		qcom,mdss-dsi-panel-status-value = <0x9c>;
 		qcom,mdss-dsi-panel-max-error-count = <3>;
 		qcom,ulps-enabled;
+        qcom,mdss-dsi-panel-hdr-enabled;
+        qcom,mdss-dsi-panel-hdr-color-primaries = <14500 15500 32000
+            17000 15500 30000 8000 3000>;
 	};
 };
